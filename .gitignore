@@ -1,0 +1,32 @@
+# Binaries
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build artifacts
+*.o
+*.a
+*.swp
+*~
+
+# Dependencies
+vendor/
+
+# Build output
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+!*.go
+
+# Coverage
+coverage.out
